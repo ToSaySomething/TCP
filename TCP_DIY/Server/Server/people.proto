@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package people;  
+  
+message People 
+{  
+  required string head = 1; 
+  required string name = 2;  
+  required string id = 3;  
+  required string email = 4;  
+}  
