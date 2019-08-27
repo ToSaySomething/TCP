@@ -182,6 +182,6 @@ class Net_API TCPServerConnection: public Poco::Runnable
 
 ​		其实我写的Connection1 继承了的TCPServerConnection类，其实是在TCPServerConnection上加了一层。定义了一些常量和状态枚举 ，其实我只是想做一层有心跳包的长连接，同时可能有收到有协议发过来的数据库操作（主要的还有run()里面判断状态去读取数据的，代码比较多，一是我当时刚刚写这种代码，二是判断协议的内容比较多）
 
-### 3、进程通信参考process.h
+### 3、题外补充 进程通信参考process.h
 
 ​		原理：父子进程管道fork()
