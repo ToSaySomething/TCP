@@ -52,13 +52,13 @@ public:
     void shutdown(const ShutdownReason& reason);
     bool isflag(const char* buffer, const int len);
     void start_timer();
-public://heartbeat
+public:
     bool read();
-    bool readheardbeat();
+    bool readheardbeat();//心跳包的接收
     bool isflagformat(std::string buffer, const int len);
     std::string tra_message(std::string data);
     void display_message(std::string rece_string);
-    std::string sqldo(std::string rece_string);
+    std::string sqldo(std::string rece_string);//数据库操作
     //Person tra(people::People p);
 private:
 //    MYSQL sql;
