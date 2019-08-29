@@ -9,6 +9,7 @@
 ​		POCO C++ Libraries是一套第三方库，去年的这个时候才进入公司实习，前辈让我接触这个库很难受官网全是英文:https://pocoproject.org/，GitHub：https://github.com/pocoproject/poco ，库方法查找：https://pocoproject.org/docs/99150-GMakeBuildNotes.html
 
 ​		开始做数据库，使用的是POCO::DATA::SQLite（当时设备使用的数据库去存储的比较少，最多把人脸特征下载到设备做个比对的小库，相对来说，用HTTP去Post引擎的大库去找和相机的小库去找小库更加有效率，但是由于相机的小库没有这么大，最多几k，所以场景适用在人数比较少而效率要求特别高的情况下）
+修改一下，修改一下，SQLite是一个开源的嵌入式关系数据库，实现自包容、零配置、支持事务的SQL数据库引擎。 
 
 ​		前辈让我啃它的NET::TCP贼难受，网上讲解的只有两三篇，官网全是英文，有一些例子关于NET库里面的Http和Mail等等https://github.com/pocoproject/poco/tree/master/Net/samples
 
