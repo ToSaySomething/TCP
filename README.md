@@ -20,7 +20,7 @@
 
 ### 2、长连接和短连接
 
-![img](C:/Users/Administrator/AppData/Local/YNote/data/527001876@qq.com/211e945a21e34e4aa0d2ca0fd416ac81/clipboard.png)
+![image](https://github.com/ToSaySomething/TCP.git/trunk/Pic/01.png)
 
 ### 3、设计模式：工厂模式
 
@@ -30,7 +30,7 @@
 
 ### 1、ProtoBuffer 协议文件
 
-协议![1566877487274](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1566877487274.png)
+协议![image](https://github.com/ToSaySomething/TCP.git/trunk/Pic/02.png)
 
 ```protobuf
 message People 
@@ -48,7 +48,7 @@ message People
 
 具体文件：
 
-![1566878068270](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1566878068270.png)
+![image](https://github.com/ToSaySomething/TCP.git/trunk/Pic/03.png)
 
 #### 2.1 先看Main.cpp
 
