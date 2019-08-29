@@ -20,7 +20,7 @@
 
 ### 2、长连接和短连接
 
-![image](https://github.com/ToSaySomething/TCP.git/trunk/Pic/01.png)
+![image](https://github.com/ToSaySomething/TCP/master/Pic/01.png)
 
 ### 3、设计模式：工厂模式
 
@@ -30,7 +30,7 @@
 
 ### 1、ProtoBuffer 协议文件
 
-协议![image](https://github.com/ToSaySomething/TCP.git/trunk/Pic/02.png)
+协议![image](https://github.com/ToSaySomething/TCP/master/Pic/02.png)
 
 ```protobuf
 message People 
@@ -48,7 +48,7 @@ message People
 
 具体文件：
 
-![image](https://github.com/ToSaySomething/TCP.git/trunk/Pic/03.png)
+![image](https://github.com/ToSaySomething/TCP/master/Pic/03.png)
 
 #### 2.1 先看Main.cpp
 
